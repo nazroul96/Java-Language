@@ -10,7 +10,7 @@ import java.net.*;
 				String modifiedSentence;
 
 				BufferedReader userInput = new BufferedReader( new InputStreamReader(System.in));
-				Socket clientSocket = new Socket("10.12.6.151", 5000);
+				Socket clientSocket = new Socket("10.12.6.158", 5000);
 
 				DataOutputStream serverOutput = new DataOutputStream(clientSocket.getOutputStream());
 				BufferedReader serverInput = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
